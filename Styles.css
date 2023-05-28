@@ -1,0 +1,37 @@
+h1{
+    font-family: 'Gentium Plus', serif;
+    /* text-align: center; */
+
+}
+#title{
+    background-color: #f2af98;
+    color: #B04759;
+}
+.que{
+    color: #8BACAA;
+}
+#gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+
+}
+.option{
+    background-color: #eb8b8b;
+    border-radius: 20px;
+}
+.para{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color:white;
+}
+.que-bg-color{
+    background-color: rgb(242, 234, 229);
+}
+.galat-jawab{
+    background-color: red;
+}
+.sahi-jawab{
+    background-color: rgb(79, 237, 52);
+}

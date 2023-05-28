@@ -1,0 +1,6 @@
+
+$(".que1").on("click",function(){
+    var uskiID=$(this).attr("id");
+    $("#Q1O4").addClass("sahi-jawab");
+    $("#"+uskiID).addClass("galat-jawab");
+})
